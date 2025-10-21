@@ -1,1 +1,1 @@
-# magic_ball.github.io
+# magic_ball.html.github.io
