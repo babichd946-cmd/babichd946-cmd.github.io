@@ -1,1 +1,1 @@
-# babichd946-cmd.magic_ball.html.github.io
+# babichd946-cmd.github.io
