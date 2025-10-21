@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Джерела кажуть - ні",
         "Перспективи не дуже хороші",
         "Сумнівно",
-		"Не впевнений"
+		      "Не впевнений"
     ];
     
     let questionHistory = [];
