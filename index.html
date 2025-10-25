@@ -3,12 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Магічна куля</title>
+    <title>Гра "В кого більше число"</title>
     <link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
 </head>
 <body>
- 
-</body>
+    <div class="container">
+        <h1>Гра "В кого більше число"</h1>
+        
+        <div class="round-info" id="roundInfo">Раунд: 1</div>
+        
+        <div class="players-container">
+            <div class="player" id="userPlayer">
+                <div class="player-name" id="userName">Гравець</div>
+                <div class="player-score">Бали: <span id="userScore">0</span></div>
+                <div class="player-number" id="userNumber">-</div>
+            </div>
+            
+            <div class="vs">VS</div>
+            
+            <div class="player" id="computerPlayer">
+                <div class="player-name">Комп'ютер</div>
+                <div class="player-score">Бали: <span id="computerScore">0</span></div>
+                <div class="player-number" id="computerNumber">-</div>
+            </div>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="controls">
+            <button id="generateBtn">Згенерувати числа</button>
+            <button id="resetBtn" disabled>Нова гра</button>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
+</body>
 </html>
